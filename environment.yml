@@ -15,7 +15,7 @@ dependencies:
   - plink
   - raxml
   - tabix
-  - sstar
+#  - sstar
   - samtools  
   - r-base=4 
   - r-ggplot2=3.3.2
