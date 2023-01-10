@@ -6,7 +6,6 @@ dependencies:
   - admixtools
   - admixture
   - bcftools
-  - clustalo
   - eigensoft
   - nano
   - notebook
@@ -16,3 +15,16 @@ dependencies:
   - plink
   - raxml
   - tabix
+  - sstar
+  - samtools  
+  - r-base=4 
+  - r-ggplot2=3.3.2
+  - r-rcpp
+  - r-tidyverse
+  - r-igraph
+  - r-plotly
+  - r-future
+  - r-future.apply
+  - r-furrr
+  - r-remotes 
+  - radian 
