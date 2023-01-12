@@ -6,6 +6,7 @@ dependencies:
   - admixtools
   - admixture
   - bcftools
+  - bwa
   - eigensoft
   - nano
   - notebook
