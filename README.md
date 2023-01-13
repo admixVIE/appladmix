@@ -13,5 +13,5 @@ Or you can download this repo and install the dependencies with [minconda](https
 git clone https://github.com/admixVIE/appladmix
 cd appladmix
 conda env create -f environment.yml
-conda activate ineal
+conda activate appladmix
 ```

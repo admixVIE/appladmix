@@ -16,53 +16,14 @@ jobs:
         environment-name: ineal
         activate-environment: ineal
         environment-file: environment.yml
-#    - name: Test plink
-#      run: |
-#        cd ./notebooks/adaptiveIntro
-#        echo rs11466640 > extract_SNPsTLR
-#        echo rs5743563 >> extract_SNPsTLR
-#        echo rs5743560 >> extract_SNPsTLR
-#        echo rs11725779 >> extract_SNPsTLR
-#        micromamba run -n ineal plink --bfile iNEAL_TLRadapInto --extract extract_SNPsTLR --make-bed --out iNEAL_TLRadapInto_subset
-#        micromamba run -n ineal plink --bfile iNEAL_TLRadapInto_subset --freq --family
-#        cd ../..
     - name: Test qpDstat
       run: |
         cd ./notebooks/f4
         micromamba run -n ineal qpDstat -p f4_parameters_QinStoneking_1a
-        micromamba run -n ineal qpDstat -p f4_parameters_QinStoneking_1b
-        micromamba run -n ineal qpDstat -p f4_parameters_QinStoneking_1c
-        micromamba run -n ineal qpDstat -p f4_parameters_Hajdinjak_2a
-        micromamba run -n ineal qpDstat -p f4_parameters_Hajdinjak_2b
-        micromamba run -n ineal qpDstat -p f4_parameters_Mafessoni_3a
-        micromamba run -n ineal qpDstat -p f4_parameters_Mafessoni_3b
         cd ../..
-#    - name: Test phylogeny
-#      run: |
-#        cd ./notebooks/mitochondria/
-#        micromamba run -n ineal clustalo -i 5humans_9Nea_Den_Allq30.fas  -o 5humans_9Nea_Den_Allq30.aln
-#        micromamba run -n ineal raxmlHPC  -s 5humans_9Nea_Den_Allq30.aln -n tree-noad-tree -f a -T 6 -m GTRGAMMA -x 5415145 -N 100 -p 874684758 -o Denisova_8
-#        cd ../..
     - name: Test bcftools
       run: |
         cd ./notebooks/vcf
         micromamba run -n ineal bcftools view ./data/chr21.YRI.CEU.vcf.gz -S ./data/YRI.list | micromamba run -n ineal bgzip -c > chr21.YRI.vcf.gz
-        micromamba run -n ineal bcftools view ./data/chr21.YRI.CEU.vcf.gz -S ./data/CEU.list | micromamba run -n ineal bgzip -c > chr21.CEU.vcf.gz
-        micromamba run -n ineal bcftools view chr21.YRI.vcf.gz -f PASS -m 2 -M 2 -v snps | micromamba run -n ineal bgzip -c > chr21.YRI.biallelic.snps.vcf.gz
-        micromamba run -n ineal bcftools view chr21.CEU.vcf.gz -f PASS -m 2 -M 2 -v snps | micromamba run -n ineal bgzip -c > chr21.CEU.biallelic.snps.vcf.gz
         cd ../..
-    - name: Test SPrime
-      run: |
-        cd ./notebooks/introgression
-        wget https://faculty.washington.edu/browning/sprime.jar
-        micromamba run -n ineal java -Xmx1g -jar sprime.jar gt=./data/chr21.YRI.CEU.biallelic.snps.vcf.gz outgroup=./data/YRI.list map=./data/plink.chr21.GRCh37.map out=chr21.CEU.introgressed
-        micromamba run -n ineal java -Xmx1g -jar sprime.jar gt=./data/chr4.YRI.CEU.TLR.biallelic.snps.vcf.gz outgroup=./data/YRI.list map=./data/plink.chr4.GRCh37.map out=chr4.CEU.TLR.introgressed
-        micromamba run -n ineal python process_sprime_output.py chr21.CEU.introgressed.score chr21.CEU.introgressed.bed
-        micromamba run -n ineal python process_sprime_output.py chr4.CEU.TLR.introgressed.score chr4.CEU.TLR.introgressed.bed
-        cd ../..
- #   - name: Test selscan
- #     run: |
- #       cd ./notebooks/selection
- #       git clone https://github.com/szpiech/selscan
- #       ./selscan/bin/linux/selscan --vcf ./data/chr2.CEU.LCT.flank.1mb.biallelic.snps.vcf.gz --map ./data/chr2.CEU.LCT.flank.1mb.biallelic.snps.map --ihs
- #       cd ../..
+

@@ -1,4 +1,4 @@
-name: ineal
+name: appladmix
 channels:
   - conda-forge
   - bioconda
@@ -16,7 +16,7 @@ dependencies:
   - plink
   - raxml
   - tabix
-#  - sstar
+  - gatk
   - samtools  
   - r-base=4 
   - r-ggplot2=3.3.2
