@@ -14,9 +14,7 @@ dependencies:
   - openjdk
   - pandas
   - plink
-  - raxml
   - tabix
-  - gatk=3.5
   - samtools  
   - r-base=4 
   - r-ggplot2=3.3.2
