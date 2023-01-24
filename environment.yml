@@ -34,7 +34,7 @@ dependencies:
   - r-data.tree
   - r-digest
   - r-doParallel
-  - r-dplyr= 1.0.0
+  - r-dplyr
   - r-foreach
   - r-lobstr
   - r-magrittr
@@ -43,10 +43,8 @@ dependencies:
   - r-rcppArmadillo
   - r-readr
   - r-rlang
-  - r-stats
   - r-stringi
   - r-stringr
   - r-tibble
-  - r-tidyr=1.0.0
-  - r-utils
+  - r-tidyr
 
