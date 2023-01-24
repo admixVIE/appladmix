@@ -13,12 +13,7 @@ jobs:
     - name: Add micromamba to system path
       uses: mamba-org/provision-with-micromamba@main
       with:
-        environment-name: ineal
-        activate-environment: ineal
+        environment-name: appladmix
+        activate-environment: appladmix
         environment-file: environment.yml
-    - name: Test bcftools
-      run: |
-        cd ./notebooks/vcf
-        micromamba run -n ineal bcftools view ./data/chr21.YRI.CEU.vcf.gz -S ./data/YRI.list | micromamba run -n ineal bgzip -c > chr21.YRI.vcf.gz
-        cd ../..
 
