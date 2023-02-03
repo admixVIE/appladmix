@@ -45,7 +45,10 @@ Imports:
     stringr,
     tibble,
     tidyr  (>= 1.0.0),
-    utils
+    utils,
+    mgcv,
+    MASS
+
 Suggests:
     DT,
     genio,
