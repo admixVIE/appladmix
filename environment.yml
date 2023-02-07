@@ -16,4 +16,5 @@ dependencies:
   - plink
   - tabix
   - samtools  
+  - bedtools
 
