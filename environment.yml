@@ -2,6 +2,7 @@ name: appladmix
 channels:
   - conda-forge
   - bioconda
+
 dependencies:
   - admixtools
   - admixture
@@ -12,9 +13,7 @@ dependencies:
   - notebook
   - numpy
   - openjdk
-  - pandas
   - plink
   - tabix
   - samtools  
   - bedtools
-
