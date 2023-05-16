@@ -11,6 +11,7 @@ dependencies:
   - eigensoft
   - nano
   - notebook
+  - pandas
   - numpy
   - openjdk
   - plink
