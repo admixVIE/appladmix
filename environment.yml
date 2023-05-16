@@ -4,6 +4,7 @@ channels:
   - bioconda
 
 dependencies:
+  - python=3.6
   - admixtools
   - admixture
   - bcftools
