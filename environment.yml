@@ -13,3 +13,6 @@ dependencies:
   - samtools  
   - bedtools
   - bcftools
+  - bwa
+  - plink
+  - eigensoft
