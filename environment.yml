@@ -5,3 +5,7 @@ channels:
 
 dependencies:
   - nano
+  - notebook
+  - pandas
+  - numpy
+  - openjdk
