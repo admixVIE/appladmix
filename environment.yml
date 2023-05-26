@@ -4,8 +4,6 @@ channels:
   - bioconda
 
 dependencies:
-  - nano
-  - notebook
   - pandas
   - numpy
   - openjdk
@@ -15,4 +13,3 @@ dependencies:
   - bcftools
   - bwa
   - plink
-  - eigensoft
