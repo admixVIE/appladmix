@@ -1,0 +1,1 @@
+install.packages("tidyverse","abind","cli","crayon","cubelyr","data.tree","digest","doParallel","dplyr","foreach","furrr","future","ggplot2","grDevices","igraph","lobstr","magrittr","quadprog","purrr","Rcpp","RcppArmadillo","readr","rlang","stats","stringi","stringr","tibble","tidyr","utils","mgcv","MASS")
