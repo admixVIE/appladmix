@@ -4,6 +4,8 @@ channels:
   - bioconda
 
 dependencies:
+  - nano
+  - notebook
   - pandas
   - numpy
   - openjdk
