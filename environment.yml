@@ -16,3 +16,37 @@ dependencies:
   - bcftools
   - bwa
   - plink
+  - r-tidyverse
+  - r-abind
+  - r-cli
+  - r-crayon
+  - r-cubelyr
+  - r-data.tree
+  - r-digest
+  - r-doParallel
+  - r-dplyr
+  - r-foreach
+  - r-furrr
+  - r-future
+  - r-ggplot2
+  - r-grDevices
+  - r-igraph
+  - r-lobstr
+  - r-magrittr
+  - r-quadprog
+  - r-purrr
+  - r-Rcpp
+  - r-RcppArmadillo
+  - r-readr
+  - r-rlang
+  - r-stats
+  - r-stringi
+  - r-stringr
+  - r-tibble
+  - r-tidyr
+  - r-utils
+  - r-mgcv
+  - r-MASS
+  - rstudio
+  - r-rmarkdown
+  
