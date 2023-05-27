@@ -47,6 +47,5 @@ dependencies:
   - r-utils
   - r-mgcv
   - r-MASS
-  - rstudio
   - r-rmarkdown
   
