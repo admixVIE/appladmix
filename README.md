@@ -1,6 +1,4 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/admixVIE/appladmix/HEAD)
-[![Linux build Status](https://github.com/admixVIE/iNEAL/actions/workflows/ubuntu-build.yml/badge.svg?branch=main)](https://github.com/admixVIE/appladmix/actions)
-[![macOS build Status](https://github.com/admixVIE/iNEAL/actions/workflows/macos-build.yml/badge.svg?branch=main)](https://github.com/admixVIE/appladmix/actions)
 
 ## Applications of Admixture Genomics (UE UniVienna).
 
@@ -19,16 +17,16 @@ conda activate appladmix
 
 
 At the moment, there are the following modules:
-- Basics in bash and handing of sequencing data ("basics").
-- VCF files and bcftools; with Challenge ("vcf")
-- Admixtools, f/D-statistics & intro to R ("admixtools")
-- Introgression detection with sstar; with Challenge ("introgression")
+- Basics in bash and handing of sequencing data ("1_basics").
+- VCF files and bcftools; with Challenge ("2_data")
+- Admixtools, f/D-statistics & intro to R ("3_admixtools")
+- Introgression detection with sstar; with Challenge ("4_introgression")
+
+In the near future, the first session (basics in bash) shall be optional (or in preparation), and it will be a requirement for the course to know how to bash.
 
 Planned modules are:
-- Detection of  Selection
-- Introgression detection with hmmix
 - Explorative data analysis with PCA, clustering and NGStools
 - Handling amd exploring ancient DNA sequencing data
+- Introgression detection with gaia (in development)
 - Simulating data
-
 
