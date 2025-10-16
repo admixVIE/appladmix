@@ -17,16 +17,17 @@ conda activate appladmix
 
 
 At the moment, there are the following modules:
-- Basics in bash and handing of sequencing data ("1_basics").
-- VCF files and bcftools; with Challenge ("2_data")
-- Admixtools, f/D-statistics & intro to R ("3_admixtools")
-- Introgression detection with sstar; with Challenge ("4_introgression")
+- Session 0 (before the course): Basics in bash ("0_basics").
+- Session 1: Handling of sequencing and genotype data ("1_data")
+- Session 2: Exploratory population genetic analysis; with Challenge ("2_popgen") 
+- Session 3: Admixtools, f/D-statistics ("3_admixtools")
+- Session 4: Introgression detection with sstar; with Challenge ("4_introgression")
 
-In the near future, the first session (basics in bash) shall be optional (or in preparation), and it will be a requirement for the course to know how to bash.
+
 
 Planned modules are:
-- Explorative data analysis with PCA, clustering and NGStools
-- Handling amd exploring ancient DNA sequencing data
-- Introgression detection with gaia (in development)
+- Further population genetics with NGStools, plink
+- Handling and exploring ancient DNA sequencing data
+- Introgression detection with other tools (in development)
 - Simulating data
 
