@@ -1,0 +1,7 @@
+name: appladmix
+channels:
+  - conda-forge
+
+dependencies:
+  - r=4.5.1
+  - nano
