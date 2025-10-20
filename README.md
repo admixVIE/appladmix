@@ -1,19 +1,8 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/admixVIE/appladmix/HEAD)
-
 ## Applications of Admixture Genomics (UE UniVienna).
 
-This repo contains the materials for practical sessions, and will be updated accordingly.
+This repo contains the materials for practical sessions, and will be updated accordingly. The current implementation is based on the LISC, where JupyterLab and RStudio are provided. User accounts are bound to enrolment in the course, and access is associated to this course. However, all notebooks are freely available, and the data is in principle public as well.
 
-To use these materials, you can click the badge [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/admixVIE/appladmix/HEAD), which will create an online virtual machine containing the tools and data used in the practical sessions.
-
-Or you can download this repo and install the dependencies with [miniconda](https://docs.conda.io/en/latest/miniconda.html) in your local machine using the following commands. To install `miniconda`, you can follow the instruction [here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
-
-```
-git clone https://github.com/admixVIE/appladmix
-cd appladmix
-conda env create -f environment.yml
-conda activate appladmix
-```
+It is expected to have basic knowledge on using bash and a unix-based command line environment, with a reminder in the "Session 0".
 
 
 At the moment, there are the following modules:
