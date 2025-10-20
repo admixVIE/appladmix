@@ -4,6 +4,9 @@ This repo contains the materials for practical sessions, and will be updated acc
 
 It is expected to have basic knowledge on using bash and a unix-based command line environment, with a reminder in the "Session 0".
 
+This part can actually be done anywhere using [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/admixVIE/appladmix/HEAD). This will create an online virtual machine containing a basic setting for bash and R. Specific programs for later parts of the course will not run, but it can help to become familiar (again) with this setting.
+
+
 
 At the moment, there are the following modules:
 - Session 0 (before the course): Basics in bash ("0_basics").
